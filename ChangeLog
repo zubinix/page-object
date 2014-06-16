@@ -1,3 +1,17 @@
+=== Version 1.0 / 2014-6-1
+* Enhancements
+  * Better support for using Regexp
+  * Added new page_url_value method that is created when you define page_url to return the value
+  * Added better error message when nil is passed to the constructor of a PageObject
+  * Updated to use the latest watir-webdriver 0.6.9
+  * Updated to use the latest selenium-webdriver 2.42.0
+* Fixes
+  * Improved handling of index locator
+
+=== Version 0.9.8 / 2014-3-16
+* Enhancements
+  * populate_page_with not supports radio groups
+
 === Version 0.9.7 / 2014-2-26
 * Enhancements
   * Table now supports exists?
